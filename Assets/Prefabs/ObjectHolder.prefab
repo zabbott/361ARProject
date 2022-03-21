@@ -1021,6 +1021,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   UserCamera: {fileID: 0}
+  timer: 1
 --- !u!1 &6514226188943048049
 GameObject:
   m_ObjectHideFlags: 0

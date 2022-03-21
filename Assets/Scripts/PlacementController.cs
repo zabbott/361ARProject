@@ -21,7 +21,7 @@ public class PlacementController : MonoBehaviour
         {
             PlaceButton.interactable = true;
             target.SetActive(true);
-            target.transform.position = new Vector3( hitObject.point.x, hitObject.point.y + yOffset, hitObject.point.z);
+            target.transform.position = new Vector3( hitObject.point.x, hitObject.point.y - yOffset, hitObject.point.z);
         }
         else
         {
