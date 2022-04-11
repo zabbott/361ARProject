@@ -7,6 +7,7 @@ public class UIManager : MonoBehaviour
 {
     public static UIManager Instance;
     public float FadeSpeed;
+    public Sprite SelectedStache;
     private void Awake()
     {
         if(Instance == null)
