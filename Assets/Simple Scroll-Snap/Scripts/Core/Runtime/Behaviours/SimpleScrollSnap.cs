@@ -272,6 +272,8 @@ namespace DanielLochner.Assets.SimpleScrollSnap
         #endregion
 
         #region Methods
+
+        public static Action<SimpleScrollSnap> SetupComplete;
         private void Start()
         {
             if (ValidConfig)
@@ -442,6 +444,8 @@ namespace DanielLochner.Assets.SimpleScrollSnap
                     });
                 }
             }
+
+            SetupComplete?.Invoke(this);
         }
 
         private void HandleSelectingAndSnapping()
