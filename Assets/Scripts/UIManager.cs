@@ -3,11 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using DanielLochner.Assets.SimpleScrollSnap;
+
 public class UIManager : MonoBehaviour
 {
     public static UIManager Instance;
     public float FadeSpeed;
     public Sprite SelectedStache;
+    public SimpleScrollSnap Snap;
+    public float BigSize; 
     private void Awake()
     {
         if(Instance == null)
@@ -41,6 +45,15 @@ public class UIManager : MonoBehaviour
         FadeIn.blocksRaycasts = true;
     }
 
-   
+    public void Centered()
+    {
+       var centeredPanel = Snap.Panels[Snap.CenteredPanel];
+       for(snap)
+    }
+
+    public void Embigginator()
+    {
+
+    }
 }
 
