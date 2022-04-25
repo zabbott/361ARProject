@@ -19,13 +19,12 @@ public class Barber : MonoBehaviour
 
     public void Barbershop()
     {
-        Staches[] = UImanager.centerPanel;
-        StacheNames[] = UImanager.centerPanel;
-        StacheDescriptions[] = UImanager.centerPanel;
-
-        SelectedStache = Staches[];
-        SelectedStache = StacheNames[];
-        SelectedStache = StacheDescriptions[];
+      //  Staches[] = UImanager.centerPanel;
+      //  StacheNames[] = UImanager.centerPanel;
+      //  StacheDescriptions[] = UImanager.centerPanel;
+      //  SelectedStache = Staches[];
+      //  SelectedStache = StacheNames[];
+      //  SelectedStache = StacheDescriptions[];
     }
 
 

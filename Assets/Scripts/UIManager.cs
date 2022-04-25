@@ -45,15 +45,6 @@ public class UIManager : MonoBehaviour
         FadeIn.blocksRaycasts = true;
     }
 
-    public void Centered()
-    {
-       var centeredPanel = Snap.Panels[Snap.CenteredPanel];
-       for(snap)
-    }
-
-    public void Embigginator()
-    {
-
-    }
+  
 }
 
