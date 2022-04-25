@@ -505,7 +505,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5681489238896921518, guid: a1ec3309957318841a5e68ab2178c627, type: 3}
       propertyPath: automaticLayoutSpacing
-      value: 0.6
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5681489238896921518, guid: a1ec3309957318841a5e68ab2178c627, type: 3}
+      propertyPath: infiniteScrollingSpacing
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5681489238896921518, guid: a1ec3309957318841a5e68ab2178c627, type: 3}
       propertyPath: onPanelCentered.m_PersistentCalls.m_Calls.Array.size
@@ -722,7 +726,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SSS: {fileID: 195951220}
-  expandedSize: {x: 300, y: 300}
+  expandedSize: {x: 250, y: 250}
   shrunkSize: {x: 150, y: 150}
   MiddleItem: 2
 --- !u!1 &418891783
