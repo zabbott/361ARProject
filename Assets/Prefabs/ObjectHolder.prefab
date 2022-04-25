@@ -1564,8 +1564,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00000047684, y: -407}
-  m_SizeDelta: {x: 1678.5, y: 317.4}
+  m_AnchoredPosition: {x: 0, y: -407}
+  m_SizeDelta: {x: 1700, y: 317.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1558889143969968823
 CanvasRenderer:
@@ -1595,12 +1595,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Hokkaido is the northernmost island of Japan. It is the second largest
-    of the four islands and its capital is Sapporo. This island has many sights to
-    see and has a population of around 5 million people. Click below to see popular
-    tourist attractions and fun locations to visit.
-
-'
+  m_text: "The Beppu Hot Springs are a collection of 7 different hot springs located
+    in the city of Beppu. These hot springs have been nicknamed \u201Chells\u201D
+    due to their high temperatures of above 100 degrees celcius. They are found throughout
+    the Kannawa and Shibaseki districts."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7fc0e7d352f9745c097d707066e64629, type: 2}
   m_sharedMaterial: {fileID: -4609450853423994621, guid: 7fc0e7d352f9745c097d707066e64629, type: 2}
@@ -1627,8 +1625,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 54
+  m_fontSizeBase: 54
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1704,8 +1702,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00000047684, y: -407}
-  m_SizeDelta: {x: 1678.5, y: 317.4}
+  m_AnchoredPosition: {x: 0, y: -407}
+  m_SizeDelta: {x: 1700, y: 317.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4185859885899157859
 CanvasRenderer:
@@ -1735,12 +1733,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Hokkaido is the northernmost island of Japan. It is the second largest
-    of the four islands and its capital is Sapporo. This island has many sights to
-    see and has a population of around 5 million people. Click below to see popular
-    tourist attractions and fun locations to visit.
-
-'
+  m_text: Shikoku is the smallest of the four islands of Japan. Around 4.1 million
+    people live here and the largest city on the island is Matsuyama. The island
+    is famous for its 88 temple pilgramage and its sanuki udon noodle dishes. Shikoku
+    has many nature sights to see.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7fc0e7d352f9745c097d707066e64629, type: 2}
   m_sharedMaterial: {fileID: -4609450853423994621, guid: 7fc0e7d352f9745c097d707066e64629, type: 2}
@@ -1767,8 +1763,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 54
+  m_fontSizeBase: 54
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2087,8 +2083,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00000047684, y: -407}
-  m_SizeDelta: {x: 1678.5, y: 317.4}
+  m_AnchoredPosition: {x: 0, y: -407}
+  m_SizeDelta: {x: 1700, y: 317.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7453762183903496886
 CanvasRenderer:
@@ -2118,12 +2114,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Hokkaido is the northernmost island of Japan. It is the second largest
-    of the four islands and its capital is Sapporo. This island has many sights to
-    see and has a population of around 5 million people. Click below to see popular
-    tourist attractions and fun locations to visit.
-
-'
+  m_text: The Nakadake Crater is located on Mount Nakadake, which is one of the five
+    peaks of Mount Aso. The crater has a milky green lake and is surrounded by smoke.
+    This peak is the most active out of the five. People come here to see the rare
+    sight of an active volcano up close.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7fc0e7d352f9745c097d707066e64629, type: 2}
   m_sharedMaterial: {fileID: -4609450853423994621, guid: 7fc0e7d352f9745c097d707066e64629, type: 2}
@@ -2150,8 +2144,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 54
+  m_fontSizeBase: 54
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3411,8 +3405,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00000047684, y: -407}
-  m_SizeDelta: {x: 1678.5, y: 317.4}
+  m_AnchoredPosition: {x: 0, y: -407}
+  m_SizeDelta: {x: 1700, y: 317.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2186306817204129354
 CanvasRenderer:
@@ -3442,12 +3436,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Hokkaido is the northernmost island of Japan. It is the second largest
-    of the four islands and its capital is Sapporo. This island has many sights to
-    see and has a population of around 5 million people. Click below to see popular
-    tourist attractions and fun locations to visit.
-
-'
+  m_text: Mount Fuji is the tallest mountain in Japan. The mountain is topped with
+    snow for 5 months of the year and has a very picturesque appearance. Mount Fuji
+    is open to hikers between the months of July and August.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7fc0e7d352f9745c097d707066e64629, type: 2}
   m_sharedMaterial: {fileID: -4609450853423994621, guid: 7fc0e7d352f9745c097d707066e64629, type: 2}
@@ -3474,8 +3465,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 54
+  m_fontSizeBase: 54
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3551,8 +3542,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00000047684, y: -407}
-  m_SizeDelta: {x: 1678.5, y: 317.4}
+  m_AnchoredPosition: {x: 0, y: -407}
+  m_SizeDelta: {x: 1700, y: 317.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3968990351513428986
 CanvasRenderer:
@@ -3582,12 +3573,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Hokkaido is the northernmost island of Japan. It is the second largest
-    of the four islands and its capital is Sapporo. This island has many sights to
-    see and has a population of around 5 million people. Click below to see popular
-    tourist attractions and fun locations to visit.
-
-'
+  m_text: The Sapporo TV Tower located in the city of Sapporo. It has an observation
+    deck, shops, and even a restaurant on the third floor. The tower is 147 meters
+    tall and the obervation deck is 90 meters off the ground. Tickets are required
+    to access the observation deck.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7fc0e7d352f9745c097d707066e64629, type: 2}
   m_sharedMaterial: {fileID: -4609450853423994621, guid: 7fc0e7d352f9745c097d707066e64629, type: 2}
@@ -3614,8 +3603,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 54
+  m_fontSizeBase: 54
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4007,8 +3996,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00000047684, y: -407}
-  m_SizeDelta: {x: 1678.5, y: 317.4}
+  m_AnchoredPosition: {x: 0, y: -407}
+  m_SizeDelta: {x: 1700, y: 317.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3561446182340637360
 CanvasRenderer:
@@ -4038,12 +4027,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Hokkaido is the northernmost island of Japan. It is the second largest
-    of the four islands and its capital is Sapporo. This island has many sights to
-    see and has a population of around 5 million people. Click below to see popular
-    tourist attractions and fun locations to visit.
-
-'
+  m_text: "Nagoya Castle is a castle located on Mount Katsuyama. It was built in
+    1603 and is one of Japan\u2019s few surviving original castles. The castle is
+    surrounded by sakura trees that bloom in the spring and is a popular historical
+    location."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7fc0e7d352f9745c097d707066e64629, type: 2}
   m_sharedMaterial: {fileID: -4609450853423994621, guid: 7fc0e7d352f9745c097d707066e64629, type: 2}
@@ -4070,8 +4057,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 54
+  m_fontSizeBase: 54
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4490,8 +4477,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00000047684, y: -407}
-  m_SizeDelta: {x: 1678.5, y: 317.4}
+  m_AnchoredPosition: {x: 0, y: -407}
+  m_SizeDelta: {x: 1700, y: 317.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1958609072970618974
 CanvasRenderer:
@@ -4521,12 +4508,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Hokkaido is the northernmost island of Japan. It is the second largest
-    of the four islands and its capital is Sapporo. This island has many sights to
-    see and has a population of around 5 million people. Click below to see popular
-    tourist attractions and fun locations to visit.
-
-'
+  m_text: 'Mount Asahi is a dormant volcano and the tallest mountain on the island
+    of Honshu. The mountain is popular with hikers in the warmer months and skiiers/snowboarders
+    during winter months. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7fc0e7d352f9745c097d707066e64629, type: 2}
   m_sharedMaterial: {fileID: -4609450853423994621, guid: 7fc0e7d352f9745c097d707066e64629, type: 2}
@@ -4553,8 +4537,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 54
+  m_fontSizeBase: 54
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6036,8 +6020,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00000047684, y: -407}
-  m_SizeDelta: {x: 1678.5, y: 317.4}
+  m_AnchoredPosition: {x: 0, y: -407}
+  m_SizeDelta: {x: 1700, y: 317.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4433581352254659331
 CanvasRenderer:
@@ -6067,12 +6051,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Hokkaido is the northernmost island of Japan. It is the second largest
-    of the four islands and its capital is Sapporo. This island has many sights to
-    see and has a population of around 5 million people. Click below to see popular
-    tourist attractions and fun locations to visit.
-
-'
+  m_text: "Honshu is the largest island of Japan. The island is home to around 104
+    million people and its largest city is Tokyo, the capital of Japan. Honshu is
+    home to the Japan\u2019s highest mountain, Mt Fuji, and has a bustling city life."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7fc0e7d352f9745c097d707066e64629, type: 2}
   m_sharedMaterial: {fileID: -4609450853423994621, guid: 7fc0e7d352f9745c097d707066e64629, type: 2}
@@ -6099,8 +6080,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 54
+  m_fontSizeBase: 54
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6474,7 +6455,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6514226187423748037}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 0
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
@@ -6780,8 +6761,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00000047684, y: -407}
-  m_SizeDelta: {x: 1678.5, y: 317.4}
+  m_AnchoredPosition: {x: 0, y: -407}
+  m_SizeDelta: {x: 1700, y: 317.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7458529892144514191
 CanvasRenderer:
@@ -6840,8 +6821,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 54
+  m_fontSizeBase: 54
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -7545,8 +7526,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00000047684, y: -407}
-  m_SizeDelta: {x: 1678.5, y: 317.4}
+  m_AnchoredPosition: {x: 0, y: -407}
+  m_SizeDelta: {x: 1700, y: 317.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &765476480396123114
 CanvasRenderer:
@@ -7576,12 +7557,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Hokkaido is the northernmost island of Japan. It is the second largest
-    of the four islands and its capital is Sapporo. This island has many sights to
-    see and has a population of around 5 million people. Click below to see popular
-    tourist attractions and fun locations to visit.
-
-'
+  m_text: Tenjin Mall is an underground shopping mall located in Fukuoka city. It
+    is the longest underground mall in Japan and has around 150 shops. The mall has
+    a 19th-century European design and a relaxing atomosphere.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7fc0e7d352f9745c097d707066e64629, type: 2}
   m_sharedMaterial: {fileID: -4609450853423994621, guid: 7fc0e7d352f9745c097d707066e64629, type: 2}
@@ -7608,8 +7586,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 54
+  m_fontSizeBase: 54
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -8001,8 +7979,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00000047684, y: -407}
-  m_SizeDelta: {x: 1678.5, y: 317.4}
+  m_AnchoredPosition: {x: 0, y: -407}
+  m_SizeDelta: {x: 1700, y: 317.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &829704342111233521
 CanvasRenderer:
@@ -8032,12 +8010,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Hokkaido is the northernmost island of Japan. It is the second largest
-    of the four islands and its capital is Sapporo. This island has many sights to
-    see and has a population of around 5 million people. Click below to see popular
-    tourist attractions and fun locations to visit.
-
-'
+  m_text: Kyushu is the third largest of the four main islands. It has a population
+    of around 13 million people and its largest city is Fukuoka. Kyushu is known
+    for its tonkotsu ramen dishes and its rainy weather conditions.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7fc0e7d352f9745c097d707066e64629, type: 2}
   m_sharedMaterial: {fileID: -4609450853423994621, guid: 7fc0e7d352f9745c097d707066e64629, type: 2}
@@ -8064,8 +8039,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 54
+  m_fontSizeBase: 54
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -8233,8 +8208,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00000047684, y: -407}
-  m_SizeDelta: {x: 1678.5, y: 317.4}
+  m_AnchoredPosition: {x: 0, y: -407}
+  m_SizeDelta: {x: 1700, y: 317.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6370819016329532330
 CanvasRenderer:
@@ -8264,12 +8239,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Hokkaido is the northernmost island of Japan. It is the second largest
-    of the four islands and its capital is Sapporo. This island has many sights to
-    see and has a population of around 5 million people. Click below to see popular
-    tourist attractions and fun locations to visit.
-
-'
+  m_text: Nagoya Castle is a castle that is located in Nagoya city. It was built
+    in 1612 during the Edo period. This castle has been reconstructed since the Bombing
+    of Nagoya in World War II and has a rich history.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7fc0e7d352f9745c097d707066e64629, type: 2}
   m_sharedMaterial: {fileID: -4609450853423994621, guid: 7fc0e7d352f9745c097d707066e64629, type: 2}
@@ -8296,8 +8268,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 54
+  m_fontSizeBase: 54
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -8465,8 +8437,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00000047684, y: -407}
-  m_SizeDelta: {x: 1678.5, y: 317.4}
+  m_AnchoredPosition: {x: 0, y: -407}
+  m_SizeDelta: {x: 1700, y: 317.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5641724136403000636
 CanvasRenderer:
@@ -8496,12 +8468,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Hokkaido is the northernmost island of Japan. It is the second largest
-    of the four islands and its capital is Sapporo. This island has many sights to
-    see and has a population of around 5 million people. Click below to see popular
-    tourist attractions and fun locations to visit.
-
-'
+  m_text: The Shikoku Pilgrimage is an 88 temple pilgrimage that begins in Tokushima
+    prefecture and ends in Kagawa prefecture. This route visits 88 different Japanese
+    temples that are said to have been used by Buddhist priest Kobo Dashi. The full
+    pilgrimage takes 6 weeks by foot, and 10 days by car. Most people embark on this
+    journey to relfect on their life and improve.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7fc0e7d352f9745c097d707066e64629, type: 2}
   m_sharedMaterial: {fileID: -4609450853423994621, guid: 7fc0e7d352f9745c097d707066e64629, type: 2}
@@ -8528,8 +8499,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 48
+  m_fontSizeBase: 48
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -8977,8 +8948,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00000047684, y: -407}
-  m_SizeDelta: {x: 1678.5, y: 317.4}
+  m_AnchoredPosition: {x: 0, y: -407}
+  m_SizeDelta: {x: 1700, y: 317.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6477892488473965040
 CanvasRenderer:
@@ -9008,12 +8979,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Hokkaido is the northernmost island of Japan. It is the second largest
-    of the four islands and its capital is Sapporo. This island has many sights to
-    see and has a population of around 5 million people. Click below to see popular
-    tourist attractions and fun locations to visit.
-
-'
+  m_text: Ritsurin Garden is a traditional Japanese Garden located in Takamatsu.
+    The garden has many ponds and landscaped hills and is especially beautiful during
+    spring. People here enjoy feeding the fish in the carp pond and admiring the
+    waterfall and overall scenery.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7fc0e7d352f9745c097d707066e64629, type: 2}
   m_sharedMaterial: {fileID: -4609450853423994621, guid: 7fc0e7d352f9745c097d707066e64629, type: 2}
@@ -9040,8 +9009,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 54
+  m_fontSizeBase: 54
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -9433,8 +9402,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00000047684, y: -407}
-  m_SizeDelta: {x: 1678.5, y: 317.4}
+  m_AnchoredPosition: {x: 0, y: -407}
+  m_SizeDelta: {x: 1700, y: 317.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5792573043625406498
 CanvasRenderer:
@@ -9464,12 +9433,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Hokkaido is the northernmost island of Japan. It is the second largest
-    of the four islands and its capital is Sapporo. This island has many sights to
-    see and has a population of around 5 million people. Click below to see popular
-    tourist attractions and fun locations to visit.
-
-'
+  m_text: "Akihabara, nicknamed \u201CAkihabara Electric Town\u201D, is a large shopping
+    district located in Tokyo that is famous for its electronic shops. This shopping
+    district lights up the streets at night with its bustling shops."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7fc0e7d352f9745c097d707066e64629, type: 2}
   m_sharedMaterial: {fileID: -4609450853423994621, guid: 7fc0e7d352f9745c097d707066e64629, type: 2}
@@ -9496,8 +9462,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 54
+  m_fontSizeBase: 54
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -9649,8 +9615,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00000047684, y: -407}
-  m_SizeDelta: {x: 1678.5, y: 317.4}
+  m_AnchoredPosition: {x: 0, y: -407}
+  m_SizeDelta: {x: 1700, y: 317.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2242666675615131449
 CanvasRenderer:
@@ -9680,12 +9646,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Hokkaido is the northernmost island of Japan. It is the second largest
-    of the four islands and its capital is Sapporo. This island has many sights to
-    see and has a population of around 5 million people. Click below to see popular
-    tourist attractions and fun locations to visit.
-
-'
+  m_text: "The Otaru Canal is a canal that was used to ship and store goods during
+    the first half of the 20th century. Part of this canal was restored in 1980 instead
+    of being landfilled with the help of a citizen\u2019s movement. The old warehouses
+    have since been made into restaurants and museums. People come here to enjoy
+    the nostalgic buildings and history of the canal."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7fc0e7d352f9745c097d707066e64629, type: 2}
   m_sharedMaterial: {fileID: -4609450853423994621, guid: 7fc0e7d352f9745c097d707066e64629, type: 2}
