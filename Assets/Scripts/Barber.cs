@@ -15,16 +15,14 @@ public class Barber : MonoBehaviour
     public string[] StacheNames;
     public string[] StacheDescriptions;
 
-    public SimpleScrollSnap Snap;
+    public int MiddleItem;
 
-    public void Barbershop()
+    public void UpdateStacheInfo(int centeredPanel)
     {
-      //  Staches[] = UImanager.centerPanel;
-      //  StacheNames[] = UImanager.centerPanel;
-      //  StacheDescriptions[] = UImanager.centerPanel;
-      //  SelectedStache = Staches[];
-      //  SelectedStache = StacheNames[];
-      //  SelectedStache = StacheDescriptions[];
+        SelectedStache.sprite = Staches[centeredPanel];
+        StacheName.text = StacheNames[centeredPanel];
+        Description.text = StacheDescriptions[centeredPanel];
+
     }
 
 

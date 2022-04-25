@@ -10,6 +10,7 @@ public class SizeChanger : MonoBehaviour
     public Vector2 expandedSize;
     public Vector2 shrunkSize;
     public int MiddleItem;
+    public Barber barberScript;
     private void Awake()
     {
         SimpleScrollSnap.SetupComplete += InitialCenter;
@@ -27,6 +28,7 @@ public class SizeChanger : MonoBehaviour
             {
                 panel.sizeDelta = expandedSize;
                 //panel.GetComponent<Button>().interactable = true;
+                barberScript.UpdateStacheInfo(SSS.CenteredPanel);
             }
             else
             {
