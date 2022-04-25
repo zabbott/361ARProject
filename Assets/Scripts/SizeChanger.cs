@@ -26,13 +26,12 @@ public class SizeChanger : MonoBehaviour
             if(panel == SSS.Panels[SSS.CenteredPanel])
             {
                 panel.sizeDelta = expandedSize;
-                Debug.Log("expanded " + panel.name);
-                panel.GetComponent<Button>().interactable = true;
+                //panel.GetComponent<Button>().interactable = true;
             }
             else
             {
                 panel.sizeDelta = shrunkSize;
-                panel.GetComponent<Button>().interactable = false;
+                //panel.GetComponent<Button>().interactable = false;
                 Debug.Log("shrunk " + panel.name);
             }
         }
@@ -53,8 +52,8 @@ public class SizeChanger : MonoBehaviour
                 else
                 {
                     panel.sizeDelta = shrunkSize;
-                    panel.GetComponent<Button>().interactable = false;
-                    Debug.Log("shrunk " + panel.name);
+                   // panel.GetComponent<Button>().interactable = false;
+                   // Debug.Log("shrunk " + panel.name);
                 }
             }
         }
