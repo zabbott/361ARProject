@@ -132,11 +132,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 206310444644631556, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_fontSize
-      value: 55
+      value: 54
       objectReference: {fileID: 0}
     - target: {fileID: 206310444644631556, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_fontSizeBase
-      value: 55
+      value: 54
       objectReference: {fileID: 0}
     - target: {fileID: 250082830977069505, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_LocalScale.x
@@ -150,6 +150,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -0.65
       objectReference: {fileID: 0}
+    - target: {fileID: 255051859647907104, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1700
+      objectReference: {fileID: 0}
+    - target: {fileID: 255051859647907104, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 364658087505501025, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_text
       value: "The Otaru Canal is a canal that was used to ship and store goods during
@@ -158,17 +166,25 @@ PrefabInstance:
         old warehouses have since been made into restaurants and museums. People
         come here to enjoy the nostalgic buildings and history of the canal."
       objectReference: {fileID: 0}
+    - target: {fileID: 475829961818409286, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 513165308730561249, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1690.7
+      value: 1700
       objectReference: {fileID: 0}
     - target: {fileID: 513165308730561249, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 650497413524928756, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 790944522190237699, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1690.7
+      value: 1700
       objectReference: {fileID: 0}
     - target: {fileID: 790944522190237699, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -177,6 +193,14 @@ PrefabInstance:
     - target: {fileID: 816416537144738315, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1111553567612760524, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_text
+      value: The Shikoku Pilgrimage is an 88 temple pilgrimage that begins in Tokushima
+        prefecture and ends in Kagawa prefecture. This route visits 88 different
+        Japanese temples that are said to have been used by Buddhist priest Kobo
+        Dashi. The full pilgrimage takes 6 weeks by foot, and 10 days by car. Most
+        people embark on this journey to relfect on their life and improve.
       objectReference: {fileID: 0}
     - target: {fileID: 1477010476453132548, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_text
@@ -187,11 +211,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1477010476453132548, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_fontSize
-      value: 55
+      value: 54
       objectReference: {fileID: 0}
     - target: {fileID: 1477010476453132548, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_fontSizeBase
-      value: 55
+      value: 54
       objectReference: {fileID: 0}
     - target: {fileID: 1497970723507858219, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_Alpha
@@ -205,6 +229,14 @@ PrefabInstance:
       propertyPath: m_Alpha
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1823226225047527873, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1700
+      objectReference: {fileID: 0}
+    - target: {fileID: 1823226225047527873, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1854359124055578482, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_text
       value: Shikoku is the smallest of the four islands of Japan. Around 4.1 million
@@ -214,15 +246,38 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1854359124055578482, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_fontSize
-      value: 50
+      value: 54
       objectReference: {fileID: 0}
     - target: {fileID: 1854359124055578482, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_fontSizeBase
-      value: 50
+      value: 54
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183625225623197765, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1700
+      objectReference: {fileID: 0}
+    - target: {fileID: 2183625225623197765, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2223094238991409232, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3052002471451725453, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_text
+      value: "The Beppu Hot Springs are a collection of 7 different hot springs located
+        in the city of Beppu. These hot springs have been nicknamed \u201Chells\u201D
+        due to their high temperatures of above 100 degrees celcius. They are found
+        throughout the Kannawa and Shibaseki districts."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3052002471451725453, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_fontSize
+      value: 54
+      objectReference: {fileID: 0}
+    - target: {fileID: 3052002471451725453, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 54
       objectReference: {fileID: 0}
     - target: {fileID: 3075235114585318389, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_text
@@ -233,15 +288,38 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3075235114585318389, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_fontSize
-      value: 55
+      value: 54
       objectReference: {fileID: 0}
     - target: {fileID: 3075235114585318389, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_fontSizeBase
-      value: 55
+      value: 54
+      objectReference: {fileID: 0}
+    - target: {fileID: 3264933116375338641, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_text
+      value: "Nagoya Castle is a castle located on Mount Katsuyama. It was built
+        in 1603 and is one of Japan\u2019s few surviving original castles. The castle
+        is surrounded by sakura trees that bloom in the spring and is a popular historical
+        location."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3264933116375338641, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_fontSize
+      value: 54
+      objectReference: {fileID: 0}
+    - target: {fileID: 3264933116375338641, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 54
+      objectReference: {fileID: 0}
+    - target: {fileID: 3454115984869873870, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1700
+      objectReference: {fileID: 0}
+    - target: {fileID: 3454115984869873870, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3545496041359661257, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1690.7
+      value: 1700
       objectReference: {fileID: 0}
     - target: {fileID: 3545496041359661257, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -251,9 +329,23 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -407
       objectReference: {fileID: 0}
+    - target: {fileID: 3810200941385867830, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_text
+      value: "Akihabara, nicknamed \u201CAkihabara Electric Town\u201D, is a large
+        shopping district located in Tokyo that is famous for its electronic shops.
+        This shopping district lights up the streets at night with its bustling shops."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810200941385867830, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_fontSize
+      value: 54
+      objectReference: {fileID: 0}
+    - target: {fileID: 3810200941385867830, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 54
+      objectReference: {fileID: 0}
     - target: {fileID: 3866634982341821763, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1690.7
+      value: 1700
       objectReference: {fileID: 0}
     - target: {fileID: 3866634982341821763, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -261,9 +353,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4049809618289591075, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1690.7
+      value: 1700
       objectReference: {fileID: 0}
     - target: {fileID: 4049809618289591075, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4101243000548355576, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1700
+      objectReference: {fileID: 0}
+    - target: {fileID: 4101243000548355576, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -273,7 +373,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4864821857509696615, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1690.7
+      value: 1700
       objectReference: {fileID: 0}
     - target: {fileID: 4864821857509696615, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -285,11 +385,66 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5644597129800510788, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1690.7
+      value: 1700
       objectReference: {fileID: 0}
     - target: {fileID: 5644597129800510788, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5652943963331240638, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_text
+      value: Ritsurin Garden is a traditional Japanese Garden located in Takamatsu.
+        The garden has many ponds and landscaped hills and is especially beautiful
+        during spring. People here enjoy feeding the fish in the carp pond and admiring
+        the waterfall and overall scenery.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5652943963331240638, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_fontSize
+      value: 54
+      objectReference: {fileID: 0}
+    - target: {fileID: 5652943963331240638, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 54
+      objectReference: {fileID: 0}
+    - target: {fileID: 5852802995695610829, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1700
+      objectReference: {fileID: 0}
+    - target: {fileID: 5852802995695610829, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009746521327183706, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_text
+      value: Tenjin Mall is an underground shopping mall located in Fukuoka city.
+        It is the longest underground mall in Japan and has around 150 shops. The
+        mall has a 19th-century European design and a relaxing atomosphere.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009746521327183706, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_fontSize
+      value: 54
+      objectReference: {fileID: 0}
+    - target: {fileID: 6009746521327183706, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 54
+      objectReference: {fileID: 0}
+    - target: {fileID: 6030362127887424735, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6116895867828703601, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_text
+      value: Nagoya Castle is a castle that is located in Nagoya city. It was built
+        in 1612 during the Edo period. This castle has been reconstructed since the
+        Bombing of Nagoya in World War II and has a rich history.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6116895867828703601, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_fontSize
+      value: 54
+      objectReference: {fileID: 0}
+    - target: {fileID: 6116895867828703601, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 54
       objectReference: {fileID: 0}
     - target: {fileID: 6129724303323035094, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_RootOrder
@@ -467,6 +622,18 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 2400
       objectReference: {fileID: 0}
+    - target: {fileID: 6602353682985696795, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6680124563343279450, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1700
+      objectReference: {fileID: 0}
+    - target: {fileID: 6680124563343279450, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6701750364012749892, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.2849141
@@ -487,19 +654,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6770135305719371061, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_fontSize
-      value: 55
+      value: 54
       objectReference: {fileID: 0}
     - target: {fileID: 6770135305719371061, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_fontSizeBase
-      value: 55
+      value: 54
       objectReference: {fileID: 0}
     - target: {fileID: 6822218268018296112, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_fontSize
-      value: 55
+      value: 54
       objectReference: {fileID: 0}
     - target: {fileID: 6822218268018296112, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_fontSizeBase
-      value: 55
+      value: 54
       objectReference: {fileID: 0}
     - target: {fileID: 6886942641263049312, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_Alpha
@@ -519,10 +686,37 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7367147123013966694, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 1690.7
+      value: 1700
       objectReference: {fileID: 0}
     - target: {fileID: 7367147123013966694, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7606200599317270173, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1700
+      objectReference: {fileID: 0}
+    - target: {fileID: 7606200599317270173, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8126342328438621596, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_text
+      value: The Nakadake Crater is located on Mount Nakadake, which is one of the
+        five peaks of Mount Aso. The crater has a milky green lake and is surrounded
+        by smoke. This peak is the most active out of the five. People come here
+        to see the rare sight of an active volcano up close.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8126342328438621596, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_fontSize
+      value: 54
+      objectReference: {fileID: 0}
+    - target: {fileID: 8126342328438621596, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 54
+      objectReference: {fileID: 0}
+    - target: {fileID: 8126342328438621596, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_enableAutoSizing
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8479217411889515639, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
@@ -533,13 +727,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8479217411889515639, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_fontSize
-      value: 55
+      value: 54
       objectReference: {fileID: 0}
     - target: {fileID: 8479217411889515639, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_fontSizeBase
-      value: 55
+      value: 54
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 816416537144738315, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
 --- !u!1 &43033656
 GameObject:
@@ -663,7 +858,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1407074269}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.67, z: -1.2}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
