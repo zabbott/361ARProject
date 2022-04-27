@@ -148,7 +148,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 90012947}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -100, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.75, z: 1.5}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -630,7 +630,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: WELCOME!
+  m_text: Chevron
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 08f0e0258b73f48c883727637437463e, type: 2}
   m_sharedMaterial: {fileID: -4601650588036830362, guid: 08f0e0258b73f48c883727637437463e, type: 2}
@@ -1084,8 +1084,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Swipe through the bubbles to select your stache, then tap the center bubble
-    to snap.
+  m_text: A Chevron mustache is a sharp, snappy stache that is easily grown and groomed
+    for most men. Defined by its trapezoidal shape, a Chevron begins at the width
+    of the nose and expands outwards to go slightly past the corners of your mouth.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cbbf562874a4142b9b443351eb900bbd, type: 2}
   m_sharedMaterial: {fileID: -5352138561347473656, guid: cbbf562874a4142b9b443351eb900bbd, type: 2}
@@ -1486,7 +1487,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ff893bd065f0f43fab7d9d1d795d5015, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 457525b7bfd144df4a8301fb7cde9c30, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1605,7 +1606,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1150677543
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2309,12 +2310,12 @@ MonoBehaviour:
   - "A Walrus mustache is among the bushiest of staches, creating a sense of grandfatherly
     mystique for those with hair thick enough to grow one. A Walrus notably covers
     the upper lip, curving downwards from the nose and around the mouth\u2019s corners."
-  - A Chevron mustache is a sharp, snappy mustache that is easily grown and groomed
+  - A Chevron mustache is a sharp, snappy stache that is easily grown and groomed
     for most men. Defined by its trapezoidal shape, a Chevron begins at the width
     of the nose and expands outwards to go slightly past the corners of your mouth.
-  - A Handlebar mustache is a classy testament to an old fashioned, refined sort
-    of manliness. Defined by its curled ends and narrow center, a Handlebar requires
-    considerable upkeep and an aesthetically complementary wardrobe to pull off.
+  - 'A Handlebar mustache is a classy testament to an old fashioned, refined sort
+    of manliness. With a distinctly narrow center and curled ends, a Handlebar requires
+    considerable upkeep and an aesthetically complementary wardrobe to pull off. '
   - "A Horseshoe mustache is a robust blend of beard and stache that can complement
     a square face and rugged demeanor. It\u2019s important to note that the long
     sides of the mustache do not hang free from the face but are rather grown out
@@ -2327,7 +2328,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132147579047348}
-  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
