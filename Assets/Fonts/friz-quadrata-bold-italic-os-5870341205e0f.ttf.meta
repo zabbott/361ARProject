@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: dcff9d3fb5f65c748a73123bf37ec827
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Friz Quadrata
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 83939145d5341884bbfdb0c38408d393, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
