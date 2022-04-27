@@ -12,7 +12,18 @@ public class PlacementController : MonoBehaviour
     public float yOffset;
     public static event Action OnPlaced;
     public Button PlaceButton;
-    public GameObject item;
+    public GameObject currentbanner;
+    public GameObject[] banners;
+    public GameObject[] replacebutton;
+    private int index;
+
+
+    private void Start()
+    {
+        index = 0;
+        currentbanner = banners[0];
+    }
+
     private void Update()
     {
         Ray ray = ARCamera.ScreenPointToRay(new Vector2(Screen.width / 2, Screen.height / 2));
@@ -30,11 +41,36 @@ public class PlacementController : MonoBehaviour
     public void PlaceObject()
     {
         OnPlaced?.Invoke();
-        item.gameObject.SetActive(true);
-        item.transform.position = target.transform.position;
+        currentbanner.gameObject.SetActive(true);
+        currentbanner.transform.position = target.transform.position;
         target.SetActive(false); 
         PlaceButton.gameObject.SetActive(false);
         ARPM.enabled = false;
+        replacebutton[index].SetActive(true);
     }
-  
+    public void switchbanner(int number)
+    {
+        PlaceButton.gameObject.SetActive(true);
+        currentbanner = banners[number];
+        index = number;
+        if (currentbanner.activeInHierarchy)
+        {
+            foreach(GameObject obj in replacebutton)
+            {
+                obj.SetActive(false);
+            }
+            replacebutton[number].SetActive(true);
+            PlaceButton.gameObject.SetActive(false);
+        }
+        else
+        {
+            foreach (GameObject obj in replacebutton)
+            {
+                obj.SetActive(false);
+            }
+            PlaceButton.gameObject.SetActive(true);
+        }
+
+    }
+    
 }
