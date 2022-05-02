@@ -4,10 +4,9 @@ using UnityEngine;
 
 public class Fader : MonoBehaviour
 {
-    public CanvasGroup GroupToFadeOut;
-    public CanvasGroup GroupToFadeIn;
-    public void AskUIManagerToFade()
+
+    public void Shrink()
     {
-        UIManager.Instance.CallFade(GroupToFadeOut, GroupToFadeIn);
+        UIManager.Instance.appAnimator.SetTrigger("Shrink");
     }
 }
