@@ -2321,6 +2321,7 @@ MonoBehaviour:
     sides of the mustache do not hang free from the face but are rather grown out
     of the lower cheeks."
   MiddleItem: 0
+  StacheHolder: {fileID: 912279841}
 --- !u!4 &543450652054329102
 Transform:
   m_ObjectHideFlags: 0
