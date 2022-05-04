@@ -26,24 +26,28 @@ public class Barber : MonoBehaviour
     }
 
     public GameObject StacheHolder;
-    private float height;
-    private Vector2 StacheHeight;
+    public float cachedTouchPosition;
+    public Vector3 StachePositionStart;
 
+    private void Start()
+    {
+        StachePositionStart = StacheHolder.transform.localPosition; //Collin how can we use this to reset the stache 
+    }
     void Update()
     {
         if (Input.touchCount > 0)
         {
             Debug.Log("Touch");
-
+            
             Touch touch = Input.GetTouch(0);
 
             if (touch.phase == TouchPhase.Moved)
             {
-                Vector2 pos = touch.position;
-                pos.y = (pos.y - height) / height;
-                StacheHeight = new Vector2(StacheHolder.transform.position.x, pos.y);
+              
 
-                StacheHolder.transform.position = StacheHeight;
+                StacheHolder.transform.localPosition = new Vector3(StacheHolder.transform.localPosition.x, 
+                    StacheHolder.transform.localPosition.y + touch.deltaPosition.y, 
+                    StacheHolder.transform.localPosition.z);
             }
         }
     }
