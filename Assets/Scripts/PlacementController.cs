@@ -11,6 +11,7 @@ public class PlacementController : MonoBehaviour
     public ARPlaneManager ARPM;
     public float yOffset;
     public static event Action OnPlaced;
+    public static event Action OnRequestReplaced;
     public Button PlaceButton;
     public GameObject currentbanner;
     public GameObject[] banners;
@@ -83,6 +84,7 @@ public class PlacementController : MonoBehaviour
         startscanning = state;
         if (state == true)
         {
+            ARPM.enabled = true;
             target.SetActive(true);
         }
     }
