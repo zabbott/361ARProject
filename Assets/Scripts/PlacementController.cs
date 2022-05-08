@@ -16,6 +16,7 @@ public class PlacementController : MonoBehaviour
     public GameObject[] banners;
     public GameObject[] replacebutton;
     private int index;
+    public bool startscanning;
 
 
     private void Start()
@@ -26,6 +27,10 @@ public class PlacementController : MonoBehaviour
 
     private void Update()
     {
+        if (startscanning)
+        {
+
+        
         Ray ray = ARCamera.ScreenPointToRay(new Vector2(Screen.width / 2, Screen.height / 2));
         RaycastHit hitObject;
         if (Physics.Raycast(ray, out hitObject))
@@ -36,6 +41,7 @@ public class PlacementController : MonoBehaviour
         }
         else
         {
+        }
         }
     }
     public void PlaceObject()
@@ -72,5 +78,12 @@ public class PlacementController : MonoBehaviour
         }
 
     }
-    
+    public void toggleScanning(bool state)
+    {
+        startscanning = state;
+        if (state == true)
+        {
+            target.SetActive(true);
+        }
+    }
 }
