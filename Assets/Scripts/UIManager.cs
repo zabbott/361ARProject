@@ -7,6 +7,13 @@ public class UIManager : MonoBehaviour
 {
     public static UIManager Instance;
     public float FadeSpeed;
+    public TMP_Text TitleText;
+    public TMP_Text DescriptionText;
+    public Artwork[] Arts;
+    public MainMenuButton[] Buttons;
+    public AudioSource source;
+    public Animator Anim;
+
     private void Awake()
     {
         if(Instance == null)
@@ -40,6 +47,48 @@ public class UIManager : MonoBehaviour
         FadeIn.blocksRaycasts = true;
     }
 
-   
+    public void UpdateTitleText()
+    {
+        TitleText.text = ""; 
+    }
+
+    public void UpdateArtwork(int WhichArtwork)
+    {
+        for(int i =0; i < Arts.Length; i++)
+        {
+            if( i == WhichArtwork)
+            {
+                TitleText.text = Arts[i].MyTitle;
+                Arts[i].Scroller.horizontalNormalizedPosition = 0;
+                Arts[i].gameObject.SetActive(true); 
+            }
+            else
+            {
+                Arts[i].gameObject.SetActive(false);
+            }
+        }
+    }
+
+    public void UpdateButtons(MainMenuButton buttonTapped)
+    {
+        foreach(var item in Buttons)
+        {
+            if(item != buttonTapped)
+            {
+                item.Reset();  
+            }
+        }
+    }
+
+    public void UpdateDescriptionWithText(string Text)
+    {
+        DescriptionText.text = Text;
+    }
+
+    public void UpdateDescriptionWithAudio(AudioClip Clip)
+    {
+        source.PlayOneShot(Clip);
+    }
+
 }
 
