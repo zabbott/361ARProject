@@ -141,7 +141,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &35843179
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1764,7 +1764,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &864397995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1969,6 +1969,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6514226188915157936, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
       propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6514226188915157937, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
+      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6514226188915157937, guid: 58bbd0c914ce15b4b896a3de9ebd1c43, type: 3}
@@ -2234,7 +2238,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1293582881
 MonoBehaviour:
   m_ObjectHideFlags: 0
