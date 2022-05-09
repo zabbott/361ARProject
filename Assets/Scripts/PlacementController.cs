@@ -49,6 +49,7 @@ public class PlacementController : MonoBehaviour
     {
         OnPlaced?.Invoke();
         currentbanner.gameObject.SetActive(true);
+        currentbanner.GetComponent<LookAtPlayer>().timer = 1f;
         currentbanner.transform.position = target.transform.position;
         target.SetActive(false); 
         PlaceButton.gameObject.SetActive(false);
